@@ -6,11 +6,12 @@
 Потрібні преретворення:
 | Markdown                      | HTML                                |
 | ----                          | ----                                |
-| \**Text\**                    | <b>Text</b>                         |
-| \_Text\_                      | <i>Text</i>                         |
-| \`Text\`                      | <tt>Text</tt>                       |
-| \```Text\```                  | <pre>Text</pre>                     |
-| Paragraph1.  Paragraph2.      | <p>Paragraph1.<p> <p>Paragraph2.<p> |
+| \**Text\**                    | \<b>Text\</b>                         |
+| \_Text\_                      | \<i>Text\</i>                         |
+| \`Text\`                      | \<tt>Text\</tt>                       |
+| \```Text\```                  | \<pre>Text\</pre>                     |
+| Paragraph1.                   
+| Paragraph2.                    | \<p>Paragraph1.\<p> \<p>Paragraph2.\<p> |
 
 Виключення:
 | Markdown       | Дії                                                                                      |

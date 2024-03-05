@@ -10,8 +10,8 @@
 | \_Text\_                      | \<i>Text\</i>                         |
 | \`Text\`                      | \<tt>Text\</tt>                       |
 | \```Text\```                  | \<pre>Text\</pre>                     |
-| Paragraph1.                   
-| Paragraph2.                    | \<p>Paragraph1.\<p> \<p>Paragraph2.\<p> |
+| Paragraph1.
+  Paragraph2.                   | \<p>Paragraph1.\<p> \<p>Paragraph2.\<p> |
 
 Виключення:
 | Markdown       | Дії                                                                                      |

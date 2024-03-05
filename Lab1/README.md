@@ -4,14 +4,13 @@
 
 Програма читає текстовий файл типу Markdown та перетворює його вмісти у файл типу HTML.
 Потрібні преретворення:
-| Markdown                      | HTML                                |
-| ----                          | ----                                |
-| \**Text\**                    | \<b>Text\</b>                         |
-| \_Text\_                      | \<i>Text\</i>                         |
-| \`Text\`                      | \<tt>Text\</tt>                       |
-| \```Text\```                  | \<pre>Text\</pre>                     |
-| Paragraph1.
-  Paragraph2.                   | \<p>Paragraph1.\<p> \<p>Paragraph2.\<p> |
+| Markdown                      | HTML                                    |
+| ----                          | ----                                    |
+| \**Text\**                    | \<b>Text\</b>                           |
+| \_Text\_                      | \<i>Text\</i>                           |
+| \`Text\`                      | \<tt>Text\</tt>                         |
+| \```Text\```                  | \<pre>Text\</pre>                       |
+| Paragraph1.    Paragraph2.    | \<p>Paragraph1.\<p> \<p>Paragraph2.\<p> |
 
 Виключення:
 | Markdown       | Дії                                                                                      |

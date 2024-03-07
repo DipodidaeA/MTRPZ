@@ -1,0 +1,15 @@
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\bin\Debug\net8.0\Lab1.exe
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\bin\Debug\net8.0\Lab1.deps.json
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\bin\Debug\net8.0\Lab1.runtimeconfig.json
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\bin\Debug\net8.0\Lab1.dll
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\bin\Debug\net8.0\Lab1.pdb
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\Lab1.AssemblyInfoInputs.cache
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\Lab1.AssemblyInfo.cs
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\Lab1.csproj.CoreCompileInputs.cache
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\Lab1.sourcelink.json
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\Lab1.dll
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\refint\Lab1.dll
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\Lab1.pdb
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\Lab1.genruntimeconfig.cache
+F:\workspace\githubrepo\MTRPZ\Lab1\Code\Lab1\Lab1\obj\Debug\net8.0\ref\Lab1.dll

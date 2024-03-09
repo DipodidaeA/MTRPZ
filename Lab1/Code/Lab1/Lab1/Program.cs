@@ -41,6 +41,7 @@ class Run
                             textFile = File.ReadAllText(pathRead);
                             textFile = textFile.Replace(Environment.NewLine, " ");
                             textSize = textFile.Length;
+                            textFile += " FORONEERROR";
                             textNewFile += "<p>";
                             for (int i = 0; i < textSize; i++)
                             {
@@ -64,7 +65,7 @@ class Run
                                                             switch (textFile[i])
                                                             {
                                                                 case '`':
-                                                                    if (textFile[i + 1] == '`' && textFile[i + 2] == '`')
+                                                                    if (textFile[i + 1] == '`' && textFile[i + 2] == '`' && textFile[i + 3] != '`')
                                                                     {
                                                                         preOpen = false;
                                                                         i += 2;
@@ -104,7 +105,7 @@ class Run
                                                             switch (textFile[i])
                                                             {
                                                                 case '`':
-                                                                    if (textFile[i - 1] != ' ' && textFile[i - 1] != '*' && textFile[i - 1] != '_')
+                                                                    if (textFile[i - 1] != ' ')
                                                                     {
                                                                         ttOpen = false;
                                                                         textNewFile += "\n</tt>\n";
@@ -151,7 +152,7 @@ class Run
                                                                 switch (textFile[i])
                                                                 {
                                                                     case '*':
-                                                                        if (textFile[i - 1] != ' ' && textFile[i - 1] != '`' && textFile[i - 1] != '_' && textFile[i + 1] == '*')
+                                                                        if (textFile[i - 1] != ' ' && textFile[i + 1] == '*')
                                                                         {
                                                                             bOpen = false;
                                                                             textNewFile += "\n</b>\n";
@@ -196,7 +197,7 @@ class Run
                                             }
                                             else
                                             {
-                                                if (textFile[i + 1] != ' ' && textFile[i + 1] != '*' && textFile[i + 1] != '`' && textFile[i + 1] != '\'')
+                                                if (textFile[i + 1] != ' ' && textFile[i + 1] != '*' && textFile[i + 1] != '`')
                                                 {
                                                     i++;
                                                     iOpen = true;
@@ -209,7 +210,7 @@ class Run
                                                             switch (textFile[i])
                                                             {
                                                                 case '_':
-                                                                    if (textFile[i - 1] != ' ' && textFile[i + 1] != '*' && textFile[i + 1] != '`')
+                                                                    if (textFile[i - 1] != ' ' )
                                                                     {
                                                                         iOpen = false;
                                                                         textNewFile += "\n</i>\n";
@@ -259,9 +260,10 @@ class Run
                                 }
                                 else { break; }
                             }
-                            if (textMdError != true && preOpen != true && ttOpen != true)
+                            if (textMdError != true && preOpen != true && ttOpen != true && iOpen != true && bOpen != true)
                             {
                                 textNewFile += "\n</p>";
+                                textNewFile = textNewFile.Replace(" FORONEERROR", "");
                                 File.WriteAllText(pathWrite, textNewFile);
                                 lastMesseg = "Change complete";
                             }

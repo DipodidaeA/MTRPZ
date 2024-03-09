@@ -64,7 +64,7 @@ class Run
                                                             switch (textFile[i])
                                                             {
                                                                 case '`':
-                                                                    if (textFile[i + 1] == '`' && textFile[i + 2] == '`')
+                                                                    if (textFile[i + 1] == '`' && textFile[i + 2] == '`' && textFile[i + 3] != '`')
                                                                     {
                                                                         preOpen = false;
                                                                         i += 2;
